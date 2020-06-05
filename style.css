@@ -1,0 +1,118 @@
+/* ******************NAV-BAR************************ */
+.nav-css{
+    background-color: #F12943 !important;
+}
+img{
+    background-color: #F12943;
+}
+.nav-link{
+    color:  white !important;
+    font-weight: bold;
+}
+.navbar-toggler{
+    background-color: azure !important;
+}
+
+
+/******************FONT-AWESOME-SECTION***********************/
+.fa-shopping-cart,.fa-user-circle-o{
+    font-size: 25px !important;
+}
+
+/******************SLIDER***********************/
+
+.carousel-item img{
+    height: 413px !important;
+}
+@media screen and (max-width: 500px) {
+    .carousel-item img{
+      height: auto;
+    }
+  }
+
+/******************PRODUCTS-CARDS-STYLING***********************/
+.fp{
+    text-align: center;
+    background-color: #F12943;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.card p{
+    font-size: small;
+}
+.fa{
+    background-color: #F12943;
+    border: #F12943;
+}
+.fa:hover{
+    zoom: 110%;
+    background-color: #F12943;
+    border: #F12943;
+}
+.rs{
+    color: #F12943;
+}
+/* .product-link{
+    text-decoration: none !important;
+} */
+.product-link{
+    color:black !important;
+    text-decoration: none !important;
+}
+.new{
+    margin-bottom: 50px;
+}
+
+/******************NEW-ARRIVALS***********************/
+@media screen and (max-width: 500px) {
+    .a-card{
+     width: 120% !important;
+     padding-left: 0;
+     margin-left: 0;
+    }
+  }
+
+  /*************************FOOTER-STYLING***************************/
+  /* .segment-one,.segment-two{
+      background-color: grey;
+      color: white;
+  } */
+  .footer-top{
+    background-color: gray;
+    line-height: 25px;
+    padding: 80px 0;
+    color: white;
+}
+.h2{
+    color: white;
+    font-size: 20px;
+}
+.fa-facebook-official,.fa-twitter,.fa-instagram{
+    background-color: gray;
+}
+.fa-facebook-official,.fa-twitter,.fa-instagram:hover{
+    background-color: gray !important;
+}
+/*************************Contact-PAGE***************************/
+.contact{
+    background-color: #F12943;
+    color: white;
+}
+.row1{
+    margin-top: 100px;
+}
+.chat{
+    background-color: #F12943;
+}
+.cent{
+    text-align: center;
+}
+.fc{
+    background-color: #F12943;
+}
+
+/*************************ABOUT-PAGE***************************/
+.web{
+    margin-bottom: 10px;
+}
